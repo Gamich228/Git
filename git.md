@@ -94,6 +94,7 @@ git checkout master.
 
 
 ># pull request
+[1]: (images/Снимок экрана 2026-10-08 121359.png)
 
 
 
