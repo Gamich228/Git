@@ -94,7 +94,7 @@ git checkout master.
 
 
 ># pull request
-
+![Изображение](https://github.com/Gamich228/Git/blob/ляпал/images/scrin2.png "request")
 
 
 
