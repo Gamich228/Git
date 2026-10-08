@@ -94,7 +94,7 @@ git checkout master.
 
 
 ># pull request
-[1]: (images/Снимок экрана 2026-10-08 121359.png)
+![Изображение](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown")
 
 
 
