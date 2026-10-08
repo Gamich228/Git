@@ -90,11 +90,11 @@ git checkout master.
 
 ># ```git clone```
 - Копировать внешний репозиторий на свой ПК можно командой
-
+![Изображение](https://github.com/Gamich228/Git/blob/ляпал/images/scrin1.png "клон")
 
 
 ># pull request
-![Изображение](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown")
+
 
 
 
