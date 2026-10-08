@@ -94,6 +94,52 @@ git checkout master.
 
 
 ># pull request
+
+1. Создаём ветку, коммитим и отправляем на GitHub
+
+Работаем в терминале: добавляем файлы в индекс, делаем коммит и отправляем ветку на удалённый репозиторий.
+
+```bash
+git add .
+git commit -m "создан файл readme.md"
+git push
+```
+
+- Если ветка новая, обычный `git push` выдаст ошибку:
+
+```
+fatal: The current branch new has no upstream branch.
+```
+
+- В этом случае пушим командой с указанием upstream:
+
+```bash
+git push --set-upstream origin new
+```
+
+- После этого в выводе терминала GitHub сам подскажет ссылку для создания PR:
+
+```
+remote: Create a pull request for 'new' on GitHub by visiting:
+remote:      https://github.com/accrust42-dev/git/pull/new/new
+```
+2. Переходим к созданию PR
+
+- На странице репозитория появляется баннер с кнопкой **Compare & pull request** - жмём её.
+
+3. Заполняем форму и создаём PR
+
+- На странице сравнения проверяем:
+
+- **base repository** и ветку `main` - куда вливаем изменения;
+- **head repository** и ветку `new` - откуда берём изменения;
+- зелёная надпись `Able to merge` - конфликтов нет, ветки можно слить автоматически.
+
+- Заполняем **Add a title** (кратко, что сделано) и **Add a description** (подробности), затем жмём зелёную кнопку **Create pull request**.
+
+- Галочка **Allow edits by maintainers** разрешает владельцу репозитория самому править вашу ветку - обычно её оставляют включённой.
+
+- Готово - PR создан, осталось дождаться, пока его посмотрят и смержат в основную ветку.
 ![Изображение](https://github.com/Gamich228/Git/blob/ляпал/images/scrin2.png "request")
 
 
